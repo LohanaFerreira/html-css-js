@@ -1,0 +1,241 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(imagens/4256096-fotor-2025020935011.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 157px;
+}
+.logo .logo1
+{
+    background: url(imagens/sakura.png);
+    background-size: cover;
+    width: 95px;
+    height: 95px;
+}
+.logo1 {
+    background: url(imagens/sakura.png);
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+
+}
+.fundo {
+    display: flex;
+    justify-content: center;
+    border-radius: 100px 0px;
+    width: 492px;
+    height: auto;
+    display: flex;
+    padding: 29px 28px;
+    flex-direction: column;
+    border-radius: 100px 0px;
+    background: linear-gradient(180deg, #FBEDEC 42%, #FFB3B3 100%);
+    box-shadow: 0px 0px 15px 0px #FFF;
+    gap: 12px;
+    }
+.fundo .titulo {
+    display: flex;
+    height: 115px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.titulo h1 {
+    color:#C65355;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    text-transform: uppercase;
+    margin: 12px;
+}
+.titulo label {
+    color: #636364;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    margin: 0px;
+    }
+.email
+{
+    display: flex;
+    width: 425px;
+    padding: 9px 29px;
+    border: none;
+    outline: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    justify-content: center;
+    margin: 12px;
+}
+.email label
+{
+    color: #636364;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+.email1 input {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #636364;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+.email .email1 
+{
+    display: flex;
+    padding: 14px 12px;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 60px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.password
+{
+    display: flex;
+    width: 425px;
+    padding: 9px 29px;
+    border: none;
+    outline: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    justify-content: center;
+    margin: 12px;
+}
+.password label
+{
+    color: #636364;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+.password input {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #636364;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+.password .password1
+{
+    display: flex;
+    padding: 14px 12px;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 60px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.remenber
+{
+    margin-top: 12px;
+}
+.remenber a
+{
+text-decoration: none;
+color: #636364;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.36px;
+margin-left: 80px;
+}
+.remenber label
+{
+    color: #595959;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+.remenber input
+{
+    margin-left: 100px;
+}
+.singup button
+{
+    width: 425px;
+    height: 72px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    background: linear-gradient(0deg, rgba(255, 117, 142, 0.27) 0%, rgba(255, 117, 142, 0.27) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    margin: 40px;
+    margin-top: 20px;
+}
+.register a
+{
+    display: inline block;
+    text-decoration: none;
+    color: #595959;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    justify-content: center;
+}
+.register 
+{
+    display: block;
+    text-align: center;
+}
+.register span
+{
+    color: #ffffff;
+}
